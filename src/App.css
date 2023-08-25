@@ -1,0 +1,110 @@
+App{
+  padding: 3%;
+  text-align: center;
+  /* justify-content: center; */
+}
+.class{
+  border: 5px solid white;
+}
+.main1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: right;
+ 
+}
+
+.button{
+  width: 80%;
+  border-radius:8% ;
+  background-color: skyblue;
+  /* border-radius: %; */
+}
+.text{
+  width:80%;
+  height:35px;
+  border: none;
+  background-color: rgba(250,250,250,255);
+  margin-top: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* padding-top:0.5%; */
+  /* padding-right: 112%; */
+}
+.card{
+  /* margin-top: 3%; */
+  padding: 1.5%;
+  /* height: 5%; */
+  width: 22%;
+  border-top: 5px solid  white;
+  margin-top: 8%;
+  align-items: center;
+  text-align:center ;
+  justify-content: center;
+  margin-left: 3%;
+}
+.card1{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding-top: 4%;
+  padding-bottom: 8%;
+  /* padding: ; */
+  /* height: 2%; */
+  width: 100%;
+  margin-top: 8px;
+  
+  border-top: .225px line  ;
+  align-content: center;
+}
+
+.formm{
+  align-items: left;
+  padding-left: 7%;
+}
+.line{
+  /* font-size: 2rem; */
+  display:grid;
+  padding: 5%;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 1.2rem;
+  align-items: center;
+
+}
+.p{
+  margin-right: 2%;
+  margin-left: 18%;
+}
+.dp{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 25%;
+  padding-bottom: 5%;
+  
+}
+html{
+  /* background-color: black; */
+  /* color:white; */
+  /* text-decoration-color: black;  */
+}
+
+.main{
+  background-color: black;
+  color:white;
+  display: flex;
+  flex-direction: row;
+
+}
+.nav{
+  flex:0.2;
+}
+.time{
+  flex:0.8
+}
+body{
+  /* height: 1%;
+  padding:0.000001%; */
+  padding:0;
+}
+.recaptcha{
+  transform:scale(0.8)
+  }

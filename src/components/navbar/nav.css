@@ -1,0 +1,41 @@
+.navi{
+    /* background-color: red; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    /* color: black; */
+    /* text-decoration-color: black; */
+}
+.sidenav_buttons{
+    display: flex;
+    flex-direction: column;
+}
+.sidenav_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border: 0;
+    background: 0;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+}
+.sidenav_icons:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.128);
+
+}
+.sidenav_icons > span{
+    font-size: 18px;
+    /* font-weight: bolder; */
+    margin-left: 8px;
+
+}
+.sidenav_button{
+    position: fixed;
+    bottom: 3px;
+}

@@ -1,0 +1,71 @@
+.my-input {
+    /* Box model */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+    /* Typography */
+    font-size: 14px;
+    color: #333;
+  
+    /* Background */
+    background-color: #fff;
+  
+    /* Other styles */
+    width: 200px;
+  }
+  
+  .my-input:focus {
+    /* Add focus styles */
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+  }
+  .one{
+    /* height: 40px; */
+    padding:1.5%;
+    /* padding-left: ; */
+    width:17%;
+    align-items: center;
+     text-align: center;
+    /* justify-content: center;
+    align-content: center; */ 
+    border: 1.5px solid rgba(0, 0, 0, 0.2);
+  }
+  .tex{
+    width:90%;
+    padding:3%;
+    border: 1.5px solid rgba(0, 0, 0, 0.2);
+
+  }
+  .one1{
+    margin-top: .5%;
+    padding: 1.5%;
+    padding-left: 4%;
+    width:14.5%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border: 1.5px solid rgba(0, 0, 0, 0.2);
+
+  }
+  .images{
+    text-align:center;
+    display: flex;
+    /* margin-left: 40%; */
+    justify-content: center;
+    align-items: center;
+    /* width: auto; */
+  }
+  .first{
+    display: flex;
+    /* margin-top: 2%;
+    margin-left: 3%; */
+    /* justify-content: center; */
+    /* align-self: ; */
+  }
+  .hi{
+    display: flex;
+  }
+  
+  
